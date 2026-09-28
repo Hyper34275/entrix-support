@@ -514,6 +514,71 @@ h3 {
   padding-left: 1.35rem;
 }
 
+.policy-body ol {
+  padding-left: 1.6rem;
+}
+
+.policy-body li + li {
+  margin-top: 8px;
+}
+
+.legal-companion {
+  margin-top: 8px;
+  color: var(--text-muted);
+}
+
+.legal-doc .legal-part {
+  padding-block: 12px 28px;
+}
+
+.legal-doc h2.part-title {
+  margin-top: 36px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  font-size: clamp(1.45rem, 3vw, 1.9rem);
+}
+
+.legal-doc .legal-section {
+  padding-block: 18px;
+  border-bottom: none;
+  scroll-margin-top: 96px;
+}
+
+.legal-doc h3 {
+  margin-top: 0;
+  font-size: 1.15rem;
+}
+
+.table-scroll {
+  margin-block: 16px;
+  overflow-x: auto;
+}
+
+.legal-doc table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.legal-doc th,
+.legal-doc td {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  text-align: left;
+  vertical-align: top;
+}
+
+.legal-doc th {
+  background: var(--surface-alt);
+  color: var(--text);
+}
+
+.table-of-contents {
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+
 @media (max-width: 820px) {
   .hero {
     grid-template-columns: 1fr;
